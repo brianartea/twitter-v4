@@ -11,6 +11,7 @@ export default NextAuth({
     // ...add more providers here
   ],
 
+  // Configure a database connection
   pages: {
     signIn: "/auth/signin",
   },
